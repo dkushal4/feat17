@@ -1,0 +1,19 @@
+inputSet:
+  name: feat16dummyy
+  identifier: feat16dummyy
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat17
+    stages:
+      - stage:
+          identifier: fd
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 15m
