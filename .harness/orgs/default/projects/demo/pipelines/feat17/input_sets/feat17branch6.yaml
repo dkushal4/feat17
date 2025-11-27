@@ -1,0 +1,19 @@
+inputSet:
+  name: feat17branch6
+  identifier: feat17branch6
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat17
+    stages:
+      - stage:
+          identifier: dfsa
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
